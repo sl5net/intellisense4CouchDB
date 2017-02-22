@@ -1,0 +1,57 @@
+﻿curl -X GET 
+curl -X PUT 
+curl -X PUT http://127.0.0.1:5984/new_db
+curl -X GET http://127.0.0.1:5984/_all_dbs
+curl -X GET http://127.0.0.1:5984/new_db
+curl -X PUT http://192.168.0.1:5984/new_db
+curl -X DELETE http://192.168.0.64:5984/new_db
+
+_active_tasks
+_all_dbs
+_db_updates
+_log
+_replicate
+_restart
+_stats
+_utils
+_uuids
+_all_docs
+_bulk_docs
+_revs_diff
+_revs_limit
+
+_compact
+_ensure_full_commit
+_view_cleanup
+_security
+_purge
+_missing_revs
+_revs_diff
+_revs_limit
+_info
+
+/_active_tasks
+/_all_dbs
+/_db_updates
+/_membership
+/_log
+/_replicate
+
+/_restart
+/_stats
+
+/_utils
+/_uuids
+
+/db/_security
+/db/_purge
+/db/_missing_revs
+/db/_revs_diff
+
+/_config
+/_config/section
+/_config/section/key
+
+_utils
+_utils
+_utils
